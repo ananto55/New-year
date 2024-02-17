@@ -1,0 +1,391 @@
+* {
+    margin: 0 px;
+    padding: 0 px;
+
+}
+
+/* //font  */
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* btn */
+
+.btn-primary {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* banner start */
+.banner {
+    height: 81vh;
+    background-image: url(../images/Banner\ Image.png);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-blend-mode: multiply;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.banner h3 {
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+}
+
+.banner h1 {
+    margin: 0px 300px;
+    font-size: 60px;
+    color: white;
+}
+
+/* banner end */
+
+/* offer  start */
+.offer {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.offer h1 {
+    font-size: 70px;
+    color: red;
+}
+
+.offer p {
+    font-size: 16px;
+    color: red;
+}
+
+.offer h3 {
+    font-size: 30px;
+}
+
+.offer img {
+    width: 700px;
+}
+
+/* offer  end */
+
+/* welcome  start */
+.welcome {
+    height: 81vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url(../images/Vectorrr.png);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+
+.welcome-content {
+    padding: 0px 100px;
+}
+
+.welcome-content h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.welcome-content p {
+    font-size: 20px;
+    color: rgb(226, 220, 220);
+    line-height: 30px;
+}
+
+.welcome-img img {
+    width: 280px;
+    margin-right: 130px;
+}
+
+/* welcome  end */
+
+/* seminar start */
+.seminar {
+    height: 80vh;
+    margin-top: 100px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(240, 200, 200, 1) 0%, rgba(248, 248, 248, 1) 100%);
+    border-radius: 15px;
+}
+
+.seminar-content {
+    padding-top: 120px;
+}
+
+.seminar-content h3 {
+    font-size: 40px;
+}
+
+.seminar-content h3 span {
+    color: red;
+}
+
+/* seminar  */
+/* wishing section start */
+.Best {
+    margin-top: 130px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
+
+}
+
+.coming-soon {
+    width: 50%;
+}
+
+.coming-soon h5 {
+    font-size: 16px;
+    color: red;
+}
+
+.coming-soon {
+    font-size: 50px;
+}
+
+.coming-soon p {
+    color: gray;
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 100px;
+}
+
+.coming-img {
+    border: 15px red solid;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.wishing-content h1 {
+    font-size: 50px;
+    color: red;
+}
+
+.wishing-content p {
+    color: gray;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* holiday section start */
+.holiday {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.holiday-content h5 {
+    font-size: 20px;
+}
+
+.holiday-content h1 {
+    font-size: 70px;
+}
+
+.holiday-content span {
+    color: red;
+}
+
+.holiday-content p {
+    font-size: 20px;
+    color: gray;
+    line-height: 30px;
+    margin: auto 250px;
+}
+
+.holiday-img {
+    margin-top: 500px;
+}
+
+.img-box-1 {
+    margin-top: 50px;
+    position: relative;
+}
+
+.img-3 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 890px;
+}
+
+.img-box-2 {
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 250px;
+}
+
+.img-box-3 {
+    position: relative;
+    top: 200px;
+}
+
+.img-1 {
+    width: 700px;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+}
+
+/* portfolio section start */
+.portfolio {
+    margin-top: 100px;
+}
+
+.portfolio h5 {
+    font-size: 20px;
+    color: red;
+}
+
+.portfolio h1 {
+    font-size: 50px;
+}
+
+.portfolio p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 450px;
+    color: gray;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-flow: wrap;
+    gap: 35px;
+}
+
+.portfolio-img img {
+    width: 400px;
+}
+
+.portfolio-img img:hover {
+    width: 400px;
+    opacity: 0.8;
+    transition: all 0.8s;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/* subscribe start */
+.subscribe {
+    height: 70vh;
+    margin-top: 100px;
+    background-color: rgb(255, 242, 242);
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 100px;
+}
+
+.subscribe h1 {
+    font-size: 50px;
+}
+
+.subscribe p {
+    font-size: 20px;
+    color: gray;
+    line-height: 30px;
+    margin: auto 230px;
+}
+
+.input {
+    margin-top: 30px;
+}
+
+.input1 {
+    border: none;
+    padding: 20px 30px;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    letter-spacing: 1px;
+}
+
+.input2 {
+    border: none;
+    padding: 16px 30px;
+    border-radius: 0 20px 20px 0;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+/* subscribe end */
+
+/* footer start */
+.footer {
+    height: 60vh;
+    background-color: rgb(2, 2, 29);
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.footer hr {
+    width: 75%;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.address address {
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone img {
+    height: 20px;
+}
+
+.social-icon {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.social-icon img {
+    margin-left: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.copyright h6 {
+    font-size: 20px;
+}
+
+/* footer start */
